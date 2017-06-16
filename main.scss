@@ -1,0 +1,104 @@
+.application {
+  width: 950px;
+  min-height: 900px;
+  margin: auto;
+}
+
+.row {
+  display: block;
+}
+
+.header {
+  width: 100%;
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.panel {
+  float: left;
+  display: inline;
+  width: 220px;
+  padding: 5px;
+  border: 1px solid #006797;
+}
+
+.panel hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.panel > div {
+  margin: 5px 0px;
+}
+
+.control-area {
+  margin: auto;
+}
+
+.control-input-area .param-block {
+  display: block;
+  margin: 5px 0px;
+}
+
+input.param {
+  width: 65px;
+}
+
+.info-block .param {
+  display: block;
+}
+
+.control-button {
+  margin: 10px;
+  cursor: pointer;
+  min-width: 30px;
+  min-height: 30px;
+  color: #006797;
+}
+
+.control-about-area .element {
+  display: block;
+  margin: 5px;
+}
+
+.control-about-area > a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #006797;
+}
+
+.control-about-area > a:hover {
+  font-weight: bold;
+}
+
+.simulate-panel button {
+  margin: 5px;
+}
+
+.board {
+  float: right;
+  display: inline;
+  width: 700px;
+  height: 700px;
+  border: 1px solid #006797;
+}
+
+.footer {
+  max-height: 170px;
+  margin-top: 5px;
+}
+
+.footer > .chart {
+  display: inline;
+}
+
+.footer > .chart:first-child {
+  max-width: 590px;
+  float: left;
+}
+
+.footer > .chart:last-child {
+  max-width: 390px;
+  float: right;
+}
